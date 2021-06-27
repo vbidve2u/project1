@@ -34,6 +34,7 @@ public class Amazonpay {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
+	System.out.println("Hi");
 	
 	public void clickMobileRecharge()
 	{
